@@ -1,0 +1,19 @@
+{
+  "name": "tuido",
+  "version": "1.0.0",
+  "bin": {
+    "tuido": "bin/tuido.js"
+  },
+  "type": "module",
+  "scripts": {
+    "todo": "node bin/tuido.js"
+  },
+  "keywords": ["cli", "todo", "tui"],
+  "author": "George Linkovsky (Timofffee)",
+  "license": "MIT",
+  "description": "Simple terminal-based TODO application built with Node.js and Blessed",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "dotenv": "^17.2.2"
+  }
+}
