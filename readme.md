@@ -14,10 +14,9 @@ It allows you to manage **categories** and **tasks** in a full-screen TUI with k
 - Manage **tasks** inside each category
 - Keyboard navigation:
   - `[a]` Add category/task
-  - `[Enter]` Enter category
+  - `[Tab]` Switch focus to categories/tasks
   - `[x]` Mark task as done
-  - `[d]` Delete task
-  - `[b]` Back to categories
+  - `[d]` Delete task/category
   - `[q]` Quit
 - Dynamic header showing category and progress
 - Footer shows **contextual hints** and **actions** (success or error messages)
